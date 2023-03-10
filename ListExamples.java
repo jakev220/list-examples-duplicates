@@ -29,6 +29,11 @@ class ListExamples {
         result.add(list1.get(index1));
         index1 += 1;
       }
+      else if (list1.get(index1).compareTo(list2.get(index2)) == 0) {
+        result.add(list1.get(index1));
+        index1 += 1;
+        index2 += 1;
+      }
       else {
         result.add(list2.get(index2));
         index2 += 1;
