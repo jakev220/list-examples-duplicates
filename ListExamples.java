@@ -33,7 +33,7 @@ class ListExamples {
       else if (list1.get(index1).compareTo(list2.get(index2)) == 0) {
         result.add(list1.get(index1));
         index1 += 1;
-        index2 += 1; //this is where the error is
+        index2 += 1; 
       }
       
       else {
